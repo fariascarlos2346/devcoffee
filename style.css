@@ -103,3 +103,23 @@ header {
     margin-left: 5px;
 }
 
+@media screen and (max-width: 871px) {
+    .div-log a {
+        font-size: 1.4rem;
+    }
+    .menu-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        padding: 0;
+    }
+    .div-log {
+        font-size: 1.5rem;
+    }
+}
+
+
+
